@@ -14,7 +14,7 @@ plt.axis("off")
 plt.title("Original image")
 plt.show()
 
-# 2. Convert to black & white
+#2
 image_sum = image_raw.sum(axis=2)
 print("image_sum.shape:", image_sum.shape)
 
@@ -78,4 +78,5 @@ for ax, k in zip(axes.ravel(), components_list):
 
 plt.tight_layout()
 plt.show()
+
 
